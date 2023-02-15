@@ -26,7 +26,6 @@ if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
 
       let page = await browser.newPage();
       await page.goto(`https://www.apollopharmacy.in/search-medicines/${search}`);
-      console.log(search);
       const data = await page.evaluate(() => {
         // Select the elements you want to extract
         const firstname = Array.from(document.querySelectorAll(".ProductCard_productName__f82e9")).map(

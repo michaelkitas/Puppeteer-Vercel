@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "chrome-aws-lambda": "^6",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
+    "fuzzball": "^2.1.2",
     "puppeteer-core": "^6"
   },
   "devDependencies": {
